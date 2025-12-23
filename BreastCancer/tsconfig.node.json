@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022"
+    ],
+    "module": "ESNext",
+    /* ⚠️ TRÈS IMPORTANT POUR VITE */
+    "moduleResolution": "node16",
+    "types": [
+      "node"
+    ],
+    "composite": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    /* Assouplissement */
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "vite.config.ts",
+    "postcss.config.js",
+    "tailwind.config.js"
+  ]
+}
